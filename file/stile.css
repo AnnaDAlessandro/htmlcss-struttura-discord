@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: blue;
+    margin: 20px;
+}
+#logo{
+    background-color: beige;
+    height: 30px;
+    flex-basis:100px;
+}
+#button-right{
+    background-color:beige;
+    height: 30px;
+    flex-basis: 100px;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+#menu{
+    background-color:beige;
+    list-style-type: none;
+    display: flex;
+    gap:10px;
+}
+#menu li{
+    padding: 0 20px;
+    flex-basis: 100px;
+    
+}
+
+.contenitore2{
+    background-color:blue;
+    height: 100px;
+    display: flex;
+    padding: 20%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#immagine1{
+    background-color: beige;
+    flex-basis: 30px;
+    height: 50px;
+    padding: 20px;
+   
+}
+#paragrafo1{
+    background-color: burlywood;
+    flex-basis: 30px;
+    height: 300px;
+    padding: 60px;
+}
+
+#bottoni1{
+    background-color:beige;
+    display: flex;
+    height: 300px;
+    padding: 10px;
+    justify-content: space-around;
+    
+}
+#bottoni1 button{
+    background-color: blue;
+    width: 100px;
+    height: 30px;
+}
+main{
+    background-color: bisque;
+    margin: 20px;
+    }
+
+.contenitore3{
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+#immagine2{
+    background-color: blueviolet;
+    height: 300px;
+    width: 350px;
+    border: 2px solid black;
+}
+#paragrafo2{
+    background-color: rgb(43, 43, 226);
+    height: 300px;
+    width: 350px;
+    border: 2px solid black;
+}
+
+#titolo1{
+    padding: 30px;
+    background-color: blueviolet;
+    border: 2px solid black;
+}
+.contenitore4{
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+#paragrafo3{
+    background-color: rgb(43, 43, 226);
+    height: 300px;
+    width: 350px;
+    border: 2px solid black;
+}
+#immagine3{
+    background-color: blueviolet;
+    height: 300px;
+    width: 350px;
+    border: 2px solid black;
+}
+#titolo2{
+    padding: 30px;
+    background-color: blueviolet;
+    border: 2px solid black;
+}
+
+#paragrafo4{
+    background-color: rgb(43, 43, 226);
+    height: 300px;
+    width: 350px;
+    border: 2px solid black;
+}
+
+#immagine4{
+    background-color: blueviolet;
+    height: 300px;
+    width: 350px;
+    border: 2px solid black;
+}
+
+#titolo3{
+    padding: 30px;
+    background-color: blueviolet;
+    border: 2px solid black;
+}
+.contenitore5{
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    justify-content: center;
+    padding:100px;
+}
+.paragrafo5{
+    background-color: blue;
+    height: 100px;
+    border: 2px solid black;
+}
+
+#immagine5{
+    background-color: blueviolet;
+    height: 150px;
+    border: 2px solid black;
+
+}
+#button2{
+    background-color:beige;
+    display: flex;
+    height: 50px;
+    padding: 10px;
+    border: 2px solid black;
+    justify-content: center;
+}
+
+#button2 button{
+    background-color: blue;
+    width: 100px;
+    height: 30px;
+}
+
+footer{
+    background-color:aquamarine;
+    margin: 20px;
+    }
+
+.piedipagina{
+    background-color:aquamarine;
+    height: 100px;
+    border: 2px solid black;
+}
+.contenitore6{
+    display: flex;
+    justify-content: space-between;
+
+}
+#immagine6{
+    background-color: bisque;
+    height: 40px;
+    padding: 20px;
+    width: 150px;
+    margin: auto;
+    margin-bottom: 30px;
+    border: 2px solid black;
+}
+#button3{
+    background-color: bisque;
+    height: 40px;
+    padding: 20px;
+    margin: auto;
+    width: 150px;
+    margin-bottom: 30px;
+    border: 2px solid black;
+} 
